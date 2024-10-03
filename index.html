@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mEU SITE!!!!!!!!!</title>
+</head>
+
+<body>
+    <h1> Hello World <h1>
+            <h2> Site do Gef <h2>
+                    <div>
+                        <h3>Listas <h3>
+                                <p> coisas que eu gosto
+                                <p>
+                                <ol>
+                                    <li>Inter
+                                    <li>academia
+                                    <li>viajar
+                                        <ol>
+                    </div>
+
+                    <div>
+                        <span id="contador">
+                            0
+                        </span>
+                        <button onclick="increment(5)">
+                            incrementar
+                        </button>
+
+                    </div>
+                    <script>
+                        const span = document.getElementById('contador');
+                        let count = 0;
+
+                        function increment(valor) {
+                            count += valor;
+                            span.textContent = count;
+                        };
+                    </script>
+</body>
+
+</html>
